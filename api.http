@@ -1,0 +1,27 @@
+###
+
+GET http://localhost:8080/
+
+###
+
+GET http://localhost:8080/produto
+
+###
+
+POST http://localhost:8080/produto/
+Content-Type: application/json
+
+{
+    "nome": "Teste",
+    "preco": 90
+}
+
+###
+
+PUT http://localhost:8080/produto/9db8237c-d1f7-4626-b5f2-3ae94869aefe
+Content-Type: application/json
+
+{
+    "nome": "Thiago",
+    "preco": 100
+}
